@@ -39,6 +39,8 @@ namespace WebApplication2
             HttpContext postedContext = HttpContext.Current;
             // Get other parameters in request using Params.Get
             String fileName = postedContext.Request.Params.Get("FileName");
+            String fileIdentifier = postedContext.Request.Params.Get("FileIdentifier");
+            String user = postedContext.Request.Params.Get("UserId");
             HttpFileCollection FilesInRequest = postedContext.Request.Files;
             
             for(int i = 0; i < FilesInRequest.AllKeys.Length; i++)
