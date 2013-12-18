@@ -1,4 +1,6 @@
 DotNetFile-UploadService
 ========================
 
-Dot net framework web service example to upload files. Simple method to upload your files that is mobile friendly.
+Helper for checking Json response format for dot net objects.
+
+Refer WebService1.asmx.cs file
